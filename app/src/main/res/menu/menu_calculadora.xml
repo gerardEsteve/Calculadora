@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Calculadora">
+
+    <item android:id="@+id/settings" android:title="Settings"
+        android:orderInCategory="100" app:showAsAction="never" android:icon="@drawable/abc_btn_radio_to_on_mtrl_015" >
+        #abc_ic_ab_back_mtrl_am_alpha
+
+        <menu>
+            <item android:id="@+id/toast" android:title="Toast" android:orderInCategory="100" app:showAsAction="never" android:icon="@drawable/abc_btn_radio_to_on_mtrl_015"  />
+            <item android:id="@+id/estat" android:title="Estat" android:orderInCategory="100" app:showAsAction="never" android:icon="@drawable/abc_btn_radio_to_on_mtrl_015"  />
+        </menu>
+
+
+    </item>
+
+
+
+
+    <item android:id="@+id/llamar" android:title="llamar"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/navegador" android:title="navegador"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+
+
+
+
+
+</menu>
